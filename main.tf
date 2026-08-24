@@ -18,7 +18,7 @@ variable "instance_names" {
 }
 
 resource "aws_s3_bucket" "two" {
-  bucket = "naveen-bucket-0099"
+  bucket = "dummu-bucket-6776"
   versioning {
     enabled = true
   }
