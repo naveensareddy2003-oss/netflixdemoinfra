@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "one" {
   count                  = 3
   ami                    = "ami-0b6d9d3d33ba97d99"
-  instance_type          = "t2.medium"
+  instance_type          = "c7i-flex.large"
   key_name               = "winscp"
   vpc_security_group_ids = ["sg-0a6da09a007dadc56"]
   tags = {
