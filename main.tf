@@ -18,7 +18,7 @@ variable "instance_names" {
 }
 
 resource "aws_s3_bucket" "two" {
-  bucket = "reddy-bucket-568"
+  bucket = "kumar-bucket-283"
   versioning {
     enabled = true
   }
